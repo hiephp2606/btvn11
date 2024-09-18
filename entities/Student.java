@@ -3,10 +3,10 @@ package entities;
 public class Student {
     private  String name;
     private int age;
-    private int marks;
+    private double marks;
     private String classification;
 
-    public Student(String name, int age, int marks, String classification) {
+    public Student(String name, int age, double marks, String classification) {
         this.name = name;
         this.age = age;
         this.marks = marks;
@@ -29,11 +29,11 @@ public class Student {
         this.age = age;
     }
 
-    public int getMarks() {
+    public double getMarks() {
         return marks;
     }
 
-    public void setMarks(int marks) {
+    public void setMarks(double marks) {
         this.marks = marks;
     }
 

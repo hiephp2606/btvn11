@@ -1,6 +1,10 @@
 package service;
 
+import entities.Student;
+
+import java.util.List;
+
 public interface Iclassification {
-    String classify();
-    void display();
+    void classify();
+    void display(List<Student> studentList);
 }
